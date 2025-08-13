@@ -4,6 +4,8 @@
 
 #define LOCTEXT_NAMESPACE "FSpatial_InventoryModule"
 
+DEFINE_LOG_CATEGORY(LogSpatial_Inventory);
+
 void FSpatial_InventoryModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module

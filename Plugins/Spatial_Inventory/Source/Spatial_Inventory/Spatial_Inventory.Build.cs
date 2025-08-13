@@ -26,6 +26,7 @@ public class Spatial_Inventory : ModuleRules
 			new string[]
 			{
 				"Core",
+				"NetCore"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -37,7 +38,8 @@ public class Spatial_Inventory : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"SlateCore",
+				"SlateCore", "EnhancedInput", 
+				"UMG"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
